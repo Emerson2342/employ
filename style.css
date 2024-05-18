@@ -6,7 +6,7 @@
     font-family: 'Roboto';
 }
 
-img {
+.logo {
     width: 150px;
     height: auto;
 }
@@ -193,4 +193,14 @@ li {
 li::before {
     content: '✓ ';
     color: gray;
+}
+
+.whats {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+
+.whats:hover {
+    cursor: pointer;
 }
